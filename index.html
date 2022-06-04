@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATLES/Registration Form ||  HTML5 single landing page</title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/TtVczSV/title-logo.png">
+    <!-- linking css start -->
+    <!-- BootStrap linking -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Own CSS linking -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- GooleFonts linking -->
+    <link rel="stylesheet" href="assets/css/google fonts.css">
+    <!-- FontAwesome linking -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- linking css end -->
+    
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><a href="#"><img src="assets/img/logo_bottom.png" alt=""></a></div>
+        <div class="title text-white">Registration Form</div>
+        <form action="#">
+            <div class="user_details">
+                <div class="input_box">
+                    <span class="details text-white">Full Name</span>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                
+                <div class="input_box">
+                    <span class="details text-white">Username</span>
+                    <input type="text" placeholder="Enter Your Username" required>
+                </div>
+                
+                <div class="input_box">
+                    <span class="details text-white">Email</span>
+                    <input type="text" placeholder="Enter Your Email" required>
+                </div>
+
+                <div class="input_box">
+                    <label class="details text-white">Phone Number (+880)</label>
+                    <input type="text" placeholder="Max 11 digits" maxlength="11" required>
+                </div>
+                
+                <div class="input_box">
+                    <label for="pass text-white">Password (8 characters minimum)</label>
+                    <input type="password" placeholder="Enter Your Password" id="pass" name="password" minlength="8" required>
+                </div>   
+                           
+                <div class="input_box">
+                    <label for="pass text-white">Confirm Password (8 characters minimum)</label>
+                    <input type="password" placeholder="Confirm Your Password" id="pass" name="password" minlength="8" required>
+                </div>
+
+                
+            </div>
+            <div class="gender_details text-white">
+                <input type="radio" name="gender" id="dot_1">
+                <input type="radio" name="gender" id="dot_2">
+                <input type="radio" name="gender" id="dot_3">
+                <span class="gender_title">Gender</span>
+                <div class="catagory">
+                    <label for="dot_1">
+                        <span class="dot one"></span>
+                        <div class="gender">Male</div>
+                    </label>
+                    
+                    <label for="dot_2">
+                        <span class="dot two"></span>
+                        <div class="gender">Female</div>
+                    </label>
+                    
+                    <label for="dot_3">
+                        <span class="dot three"></span>
+                        <div class="gender">Others</div>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register" >
+            </div>
+
+            <!------------------------------ Window History Back Button-------------------------------->
+
+          <button class="bck_btn" onclick="history.back()">Go Back</button>
+        </form>
+    </div>
+    
+</body>
+</html>

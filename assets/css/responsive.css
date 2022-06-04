@@ -1,0 +1,26 @@
+@media(max-width:584px)
+{
+    .container
+    {
+        max-width: 100%;
+    }
+    form .user_details .input_box
+{
+    margin-bottom: 15px;
+    width: 100%;   
+}
+form .gender_details .catagory
+{
+    width: 100%;
+}
+.container form .user_details
+{
+max-height: 300px;
+overflow-y: scroll;
+
+}
+.user_details::-webkit-scrollbar
+{
+    width: 0;
+}
+}
